@@ -10,7 +10,7 @@ namespace Ml.Mtp.Performance.Tests
             // 日期計算測試
             // BenchmarkRunner.Run<DateTimeFunctions>();
 
-             BenchmarkRunner.Run<EnumerableLinqTests>();
+             BenchmarkRunner.Run<LinqAnyVsCountTests>();
 
         }
     }
